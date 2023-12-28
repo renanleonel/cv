@@ -75,16 +75,6 @@ export default function Page() {
 									</span>
 								</Link>
 							) : null}
-							{DATA.contact.tel ? (
-								<Link
-									href={`tel:${DATA.contact.tel}`}
-									aria-label='Phone'
-								>
-									<span className='underline'>
-										{DATA.contact.tel}
-									</span>
-								</Link>
-							) : null}
 						</div>
 					</div>
 

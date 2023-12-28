@@ -47,21 +47,6 @@ export default function Page() {
 									</Link>
 								</Button>
 							) : null}
-							{DATA.contact.tel ? (
-								<Button
-									className='h-8 w-8'
-									variant='outline'
-									size='icon'
-									asChild
-								>
-									<Link
-										href={`tel:${DATA.contact.tel}`}
-										aria-label='Phone'
-									>
-										<PhoneIcon className='h-4 w-4' />
-									</Link>
-								</Button>
-							) : null}
 							{DATA.contact.social.map((social) => (
 								<Button
 									key={social.name}

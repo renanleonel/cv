@@ -1,0 +1,51 @@
+{
+	"name": "Renan Leonel",
+	"short_name": "Renan Leonel",
+	"theme_color": "#fff",
+	"background_color": "#fff",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "/metadata/72.png",
+			"type": "image/png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "/metadata/80.png",
+			"type": "image/png",
+			"sizes": "80x80"
+		},
+		{
+			"src": "/metadata/100.png",
+			"type": "image/png",
+			"sizes": "100x100"
+		},
+		{
+			"src": "/metadata/128.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "/metadata/144.png",
+			"type": "image/png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "/metadata/152.png",
+			"type": "image/png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "/metadata/192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/metadata/512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}

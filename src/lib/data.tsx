@@ -12,7 +12,6 @@ export const DATA = {
 	personalWebsiteUrl: '',
 	contact: {
 		email: 'renanleonelpro@gmail.com',
-		tel: '+5544988019054',
 		social: [
 			{
 				name: 'GitHub',

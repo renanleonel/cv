@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-import './globals.css';
+import '@/styles/globals.css';
 import React from 'react';
 
 export const metadata: Metadata = {
@@ -24,6 +24,18 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en' className={inter.className}>
+			<head>
+				<link rel='icon' href='/favicon.ico' sizes='any' />
+				<link rel='manifest' href='/manifest.json' />
+				<meta
+					name='apple-mobile-web-app-status-bar-style'
+					content='black-translucent'
+				/>
+				<meta
+					name='viewport'
+					content='initial-scale=1, viewport-fit=cover'
+				/>
+			</head>
 			<body>
 				{children}
 				<Analytics />

@@ -32,7 +32,7 @@ export const CommandMenu = ({ links }: Props) => {
 	}, []);
 
 	return (
-		<>
+		<main className='hidden lg:block'>
 			<p className='fixed bottom-0 left-0 right-0 border-t border-t-muted bg-white p-1 text-center text-sm text-muted-foreground print:hidden'>
 				Press{' '}
 				<kbd className='pointer-events-none text-secondary-foreground inline-flex h-5 select-none items-center gap-1 rounded border bg-primary/15 px-1.5 font-mono text-[10px] font-medium opacity-100'>
@@ -70,6 +70,6 @@ export const CommandMenu = ({ links }: Props) => {
 					<CommandSeparator />
 				</CommandList>
 			</CommandDialog>
-		</>
+		</main>
 	);
 };

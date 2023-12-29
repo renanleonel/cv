@@ -177,6 +177,26 @@ export default function Page() {
 					})}
 				</section>
 
+				<section className='flex min-h-0 flex-col gap-y-3'>
+					<h2 className='text-xl font-bold'>Certificates</h2>
+					{DATA.certificates.map((certificate) => {
+						return (
+							<Card key={certificate.name}>
+								<CardHeader>
+									<div className='flex items-center justify-between gap-x-2 text-base'>
+										<h3 className='font-semibold leading-none'>
+											{certificate.name}
+										</h3>
+									</div>
+								</CardHeader>
+								<CardContent className='mt-2'>
+									{certificate.school}
+								</CardContent>
+							</Card>
+						);
+					})}
+				</section>
+
 				<section className='print-force-new-page flex min-h-0 scroll-mb-16 flex-col gap-y-3'>
 					<h2 className='text-xl font-bold'>Projects</h2>
 					<div className='-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3'>

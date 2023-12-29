@@ -39,6 +39,14 @@ export const DATA = {
 			end: '2023',
 		},
 	],
+
+	certificates: [
+		{
+			school: 'Cambridge Assessment English',
+			name: 'C1 CAE - Certificate in Advanced English',
+		},
+	],
+
 	work: [
 		{
 			company: 'PLIN Energia',

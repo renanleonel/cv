@@ -102,13 +102,13 @@ export const DATA = {
 	],
 	projects: [
 		{
-			title: 'Support',
+			title: 'Quark',
 			techStack: ['Side Project', 'Next.js', 'TypeScript'],
 			description:
 				'SaaS to streamline the ticketing process for the engineering department',
 			link: {
 				label: '',
-				href: 'https://github.com/renanleonel/support-platform',
+				href: 'https://github.com/renanleonel/quark',
 			},
 		},
 	],
